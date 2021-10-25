@@ -1,0 +1,31 @@
+{
+    "membres":[
+{
+    "id":"1",
+    "cin":"12345678",
+    "name":"Rahma Feki",
+    "createDate":"2020-10-20",
+    "cv":"https://www.cdc.gov/polio/stop/pdf/stop-french-cv-template.pdf",
+    "type":"teacher",
+    "action":""
+},
+{
+    "id":"123",
+    "cin":"1234555",
+    "name":"Hamdi Mekki",
+    "createDate":"2020-09-20",
+    "cv":"https://www.cdc.gov/polio/stop/pdf/stop-french-cv-template.pdf",
+    "type":"assistant",
+    "action":""
+},
+{
+    "id":"1222",
+    "cin":"12334",
+    "name":"Asma Bahloul",
+    "createDate":"2020-09-10",
+    "cv":"https://www.cdc.gov/polio/stop/pdf/stop-french-cv-template.pdf",
+    "type":"directeur",
+    "action":""
+}
+    ]
+}

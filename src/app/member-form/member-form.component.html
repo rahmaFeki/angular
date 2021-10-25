@@ -1,0 +1,28 @@
+<div fxLayout="row" fxLayoutAlign="center center" > 
+<br>
+<form [formGroup]="form" (ngSubmit)="OnSubmit()" >
+<mat-form-field appearance="legacy" >
+  
+    <input matInput placeholder="cin" formControlName="cin" >
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="legacy" >
+ 
+    <input matInput placeholder="name" formControlName="name">
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="legacy" >
+  
+    <input matInput placeholder="cv" formControlName="cv">
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="legacy" >
+  
+    <input matInput placeholder="type" formControlName="type">
+  </mat-form-field>
+  <br>
+  <div fxLayout="row" fxLayoutAlign="end center" > 
+  <button mat-button type="submit">Ajouter</button>
+  </div>
+</form> 
+</div>
